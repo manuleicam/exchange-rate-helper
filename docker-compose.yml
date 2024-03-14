@@ -1,0 +1,17 @@
+version: '3'
+services:
+  postgres:
+    container_name: postgresql
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+      POSTGRES_DB: exchangeratesbd
+    volumes:
+      - ./deploy/PostgreSql/CreateExchangeRateTable.sql:/docker-entrypoint-initdb.d/CreateExchangeRateTable.sql
+    ports:
+      - "5432:5432"
+    restart: always
+
+volumes:
+  postgres-data:

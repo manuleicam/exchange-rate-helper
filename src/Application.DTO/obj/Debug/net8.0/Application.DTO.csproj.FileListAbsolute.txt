@@ -1,0 +1,12 @@
+D:\GIT_FOLDERS\exchange-rate-helper\src\Application.DTO\bin\Debug\net8.0\Application.DTO.deps.json
+D:\GIT_FOLDERS\exchange-rate-helper\src\Application.DTO\bin\Debug\net8.0\Application.DTO.dll
+D:\GIT_FOLDERS\exchange-rate-helper\src\Application.DTO\bin\Debug\net8.0\Application.DTO.pdb
+D:\GIT_FOLDERS\exchange-rate-helper\src\Application.DTO\obj\Debug\net8.0\Application.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT_FOLDERS\exchange-rate-helper\src\Application.DTO\obj\Debug\net8.0\Application.DTO.AssemblyInfoInputs.cache
+D:\GIT_FOLDERS\exchange-rate-helper\src\Application.DTO\obj\Debug\net8.0\Application.DTO.AssemblyInfo.cs
+D:\GIT_FOLDERS\exchange-rate-helper\src\Application.DTO\obj\Debug\net8.0\Application.DTO.csproj.CoreCompileInputs.cache
+D:\GIT_FOLDERS\exchange-rate-helper\src\Application.DTO\obj\Debug\net8.0\Application.DTO.dll
+D:\GIT_FOLDERS\exchange-rate-helper\src\Application.DTO\obj\Debug\net8.0\refint\Application.DTO.dll
+D:\GIT_FOLDERS\exchange-rate-helper\src\Application.DTO\obj\Debug\net8.0\Application.DTO.pdb
+D:\GIT_FOLDERS\exchange-rate-helper\src\Application.DTO\obj\Debug\net8.0\ref\Application.DTO.dll
+D:\GIT_FOLDERS\exchange-rate-helper\src\Application.DTO\obj\Debug\net8.0\Application.DTO.csproj.AssemblyReference.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8DTSw5BP/U+Jff9zmQV+wHYV5/JMoEK1hAZ7I74tyFPuibMkCCWKXJOHBWdHnL6JSVj1evQpnua7ZeOM2WsWxQ==",
+  "success": true,
+  "projectFilePath": "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Application.DTO\\Application.DTO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Leicam\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

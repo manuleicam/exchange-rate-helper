@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bWIzKXTFn9lYlsN2X4FXmwpY0BqVIWmi0LoqGMa17a8=",
+  "Source": "exchange-rate-helper",
+  "BasePath": "_content/exchange-rate-helper",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

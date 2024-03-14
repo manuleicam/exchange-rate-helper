@@ -1,0 +1,256 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Domain.Core\\Domain.Core.csproj": {}
+  },
+  "projects": {
+    "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Application.DTO\\Application.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Application.DTO\\Application.DTO.csproj",
+        "projectName": "Application.DTO",
+        "projectPath": "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Application.DTO\\Application.DTO.csproj",
+        "packagesPath": "C:\\Users\\Leicam\\.nuget\\packages\\",
+        "outputPath": "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Application.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Leicam\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Domain.Core\\Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Domain.Core\\Domain.Core.csproj",
+        "projectName": "Domain.Core",
+        "projectPath": "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Domain.Core\\Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\Leicam\\.nuget\\packages\\",
+        "outputPath": "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Leicam\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Domain.Model\\Domain.Model.csproj": {
+                "projectPath": "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Domain.Model\\Domain.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Domain.Model\\Domain.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Domain.Model\\Domain.Model.csproj",
+        "projectName": "Domain.Model",
+        "projectPath": "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Domain.Model\\Domain.Model.csproj",
+        "packagesPath": "C:\\Users\\Leicam\\.nuget\\packages\\",
+        "outputPath": "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Domain.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Leicam\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Infrastructure.CrossCutting\\Infrastructure.CrossCutting.csproj": {
+                "projectPath": "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Infrastructure.CrossCutting\\Infrastructure.CrossCutting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Infrastructure.CrossCutting\\Infrastructure.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Infrastructure.CrossCutting\\Infrastructure.CrossCutting.csproj",
+        "projectName": "Infrastructure.CrossCutting",
+        "projectPath": "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Infrastructure.CrossCutting\\Infrastructure.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\Leicam\\.nuget\\packages\\",
+        "outputPath": "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Infrastructure.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Leicam\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Application.DTO\\Application.DTO.csproj": {
+                "projectPath": "D:\\GIT_FOLDERS\\exchange-rate-helper\\src\\Application.DTO\\Application.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\exchange-rate-helper.props" />
+</Project>
