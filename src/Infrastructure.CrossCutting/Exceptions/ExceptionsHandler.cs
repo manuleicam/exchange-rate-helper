@@ -1,12 +1,10 @@
 namespace Infrastructure.CrossCutting.Exceptions
 {
-
-    using System.Net;
     using FluentValidation;
-    using FluentValidation.Internal;
     using Microsoft.AspNetCore.Diagnostics;
     using Microsoft.AspNetCore.Http;
     using Microsoft.Extensions.Logging;
+    using Newtonsoft.Json;
 
     public class ExceptionsHandler : IExceptionHandler
     {
@@ -56,8 +54,14 @@ namespace Infrastructure.CrossCutting.Exceptions
             var statusCode = this.GetStatusForException(exception);
 
             httpContext.Response.StatusCode = statusCode;
+
+            var exceptionBody = JsonConvert.SerializeObject(new
+            {
+                StatusCode = statusCode,
+                Message = exception.Message,
+            });
             
-            await httpContext.Response.WriteAsync(exception.Message, cancellationToken);
+            await httpContext.Response.WriteAsync(exceptionBody, cancellationToken);
 
             if (statusCode >= StatusCodes.Status400BadRequest)
             {

@@ -4,6 +4,7 @@ using Data.PostGreSql;
 using Data.PostGreSql.Repositories;
 using Domain.Core.Repositories;
 using Infrastructure.CrossCutting.Exceptions;
+using Microsoft.AspNetCore.Mvc.Formatters;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +23,11 @@ builder.Services.AddScoped<ICurrencyExchangeRateGateway, CurrencyExchangeRateGat
 builder.Services.AddScoped<IExchangeRateRepository, ExchangeRateRepository>();
 
 builder.Services.AddDbContext<AppDbContext>(ServiceLifetime.Singleton);
+
+builder.Services.AddControllers(options =>
+{
+    options.OutputFormatters.RemoveType<StringOutputFormatter>();
+});
 
 var app = builder.Build();
 app.MapControllers();

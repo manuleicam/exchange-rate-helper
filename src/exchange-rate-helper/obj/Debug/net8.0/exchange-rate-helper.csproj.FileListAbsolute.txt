@@ -53,3 +53,4 @@ D:\GIT_FOLDERS\exchange-rate-helper\src\exchange-rate-helper\bin\Debug\net8.0\Do
 D:\GIT_FOLDERS\exchange-rate-helper\src\exchange-rate-helper\bin\Debug\net8.0\Domain.Core.pdb
 D:\GIT_FOLDERS\exchange-rate-helper\src\exchange-rate-helper\bin\Debug\net8.0\Data.PostGreSql.dll
 D:\GIT_FOLDERS\exchange-rate-helper\src\exchange-rate-helper\bin\Debug\net8.0\Data.PostGreSql.pdb
+D:\GIT_FOLDERS\exchange-rate-helper\src\exchange-rate-helper\obj\Debug\net8.0\exchange-rate-helper.sourcelink.json

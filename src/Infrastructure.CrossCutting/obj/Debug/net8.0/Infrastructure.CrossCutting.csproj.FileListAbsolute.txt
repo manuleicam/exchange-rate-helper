@@ -36,3 +36,4 @@ D:\GIT_FOLDERS\exchange-rate-helper\src\Infrastructure.CrossCutting\bin\Debug\ne
 D:\GIT_FOLDERS\exchange-rate-helper\src\Infrastructure.CrossCutting\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
 D:\GIT_FOLDERS\exchange-rate-helper\src\Infrastructure.CrossCutting\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 D:\GIT_FOLDERS\exchange-rate-helper\src\Infrastructure.CrossCutting\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\GIT_FOLDERS\exchange-rate-helper\src\Infrastructure.CrossCutting\obj\Debug\net8.0\Infrastructure.CrossCutting.sourcelink.json

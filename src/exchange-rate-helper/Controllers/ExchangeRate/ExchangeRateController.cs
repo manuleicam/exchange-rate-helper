@@ -1,7 +1,6 @@
 namespace exchange_rate_helper.Controllers.ExchangeRate
 {
     using Application.DTO.ExchangeRate;
-    using Application.Services.Currency.Mappers;
     using Application.Services.ExchangeRate.Commands;
     using Application.Services.ExchangeRate.Queries;
     using MediatR;
@@ -18,6 +17,11 @@ namespace exchange_rate_helper.Controllers.ExchangeRate
             this.mediator = mediator;
         }
 
+        [ProducesResponseType(typeof(ExchangeRateDto), 200)]
+        [ProducesResponseType(typeof(string), 400)]
+        [ProducesResponseType(typeof(string), 404)]
+        [ProducesResponseType(typeof(string), 500)]
+        [ProducesResponseType(404)]
         [HttpGet("{id:guid}",  Name = "GetExchangeRate")]
         public async Task<IActionResult> GetExchangeRate(Guid id)
         {
@@ -28,6 +32,9 @@ namespace exchange_rate_helper.Controllers.ExchangeRate
             return this.Ok(exchangeRate);
         }
         
+        [ProducesResponseType(typeof(List<ExchangeRateDto>), 200)]
+        [ProducesResponseType(typeof(string), 400)]
+        [ProducesResponseType(typeof(string), 500)]
         [HttpGet]
         public async Task<IActionResult> GetAllExchangeRates(
             [FromQuery] string? fromCurrencyCode = default,
@@ -40,6 +47,10 @@ namespace exchange_rate_helper.Controllers.ExchangeRate
             return this.Ok(exchangeRates);
         }
         
+        [ProducesResponseType(201)]
+        [ProducesResponseType(typeof(string), 400)]
+        [ProducesResponseType(typeof(string), 404)]
+        [ProducesResponseType(typeof(string), 500)]
         [HttpPost]
         public async Task<IActionResult> CreateExchangeRate(
             [FromBody] ExchangeRateDto exchangeRateDto)
@@ -56,6 +67,10 @@ namespace exchange_rate_helper.Controllers.ExchangeRate
             return this.CreatedAtRoute("GetExchangeRate", new { id = exchangeRateCreated},exchangeRateDto);
         }
         
+        [ProducesResponseType(204)]
+        [ProducesResponseType(typeof(string), 400)]
+        [ProducesResponseType(typeof(string), 404)]
+        [ProducesResponseType(typeof(string), 500)]
         [HttpPut("{id:guid}")]
         public async Task<IActionResult> UpdateExchangeRate(
             Guid id,
@@ -70,6 +85,10 @@ namespace exchange_rate_helper.Controllers.ExchangeRate
             return this.NoContent();
         }
         
+        [ProducesResponseType(204)]
+        [ProducesResponseType(typeof(string), 400)]
+        [ProducesResponseType(typeof(string), 404)]
+        [ProducesResponseType(typeof(string), 500)]
         [HttpDelete("{id:guid}")]
         public async Task<IActionResult> DeleteExchangeRate(Guid id)
         {
